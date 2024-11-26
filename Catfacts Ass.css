@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background: linear-gradient(to top, hsl(14, 85%, 52%), hsla(36, 92%, 48%, 0.718), hsl(16, 80%, 29%));;
+}
+.factspace {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid white;
+    margin: 20px;
+    font-size: 1.5em;
+    color: white;
+}
+.img{
+    height: auto;
+    width: 50%;
+}
+.facts {
+    width: 50%;
+    height: auto;
+}
+#generateButton {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
