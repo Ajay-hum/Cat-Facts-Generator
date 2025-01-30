@@ -3,14 +3,15 @@ async function generateFact() {
     const factDiv = document.getElementById('fact');
 
     const catPhotos = [
-        "/CatFactsGenerator/catImgs/kitten-1845789_1280.jpg",
-        "/CatFactsGenerator/catImgs/cats-8105667_1280.jpg",
-        "/CatFactsGenerator/catImgs/european-shorthair-8601492_1280.jpg",
-        "/CatFactsGenerator/catImgs/cat-5778777_1280.jpg",
-        "/CatFactsGenerator/catImgs/cat-551554_1280.jpg",
-        "/CatFactsGenerator/catImgs/cat-323262_1280.jpg",
-        "/CatFactsGenerator/catImgs/cat-61079_1280.jpg"
-    ]
+        "./catImgs/kitten-1845789_1280.jpg",
+        "./catImgs/cats-8105667_1280.jpg",
+        "./catImgs/european-shorthair-8601492_1280.jpg",
+        "./catImgs/cat-5778777_1280.jpg",
+        "./catImgs/cat-551554_1280.jpg",
+        "./catImgs/cat-323262_1280.jpg",
+        "./catImgs/cat-61079_1280.jpg"
+    ];
+    
 
     // Disable the button and change the text
     factDiv.style.display = "block"
